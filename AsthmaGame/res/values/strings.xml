@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="Welcome">Welcome to Trigger Buster!</string>
+    <string name="Done">High Score</string>
+    <string name="Quote">"It will take your breath away"</string>
+    <string name="Game">"This is the game"</string>
+    <string name="app_name">Trigger Busters</string>
+    <string name="StartGameBoy">Start Game Boy</string>
+    <string name="StartGameGirl">Start Game Girl</string>
+    <string name="ScorePoints">Click here to score points!</string>
+    <string name="EndGame">Exit</string>
+    <string name="MainScreen">Main Screen</string>
+    <string name="Rules">See rules</string>
+     <string name="DisplayRules">The city is filled with dust and it\'s your job to clean it all up!
+Use the arrow keys to move around the city and pick up the dust pieces along the way.
+Watch out for the asthma triggers though. The pet, mold, cockroach, and cigarette will chase you all around the board.
+You start with two inhalers and one nebulizer. Every time you get hit by a trigger, you need to take a puff.
+After two inhaler puffs, if you get hit, it\'s time to use the nebulizer.
+One more hit after you use your nebulizer means a game over so be careful!
+See if you can beat your high score!
+Good luck!!!</string>
+    <item name="Score" type="integer">0</item>
+    <string name="collision_message">You have been hit! Now, you need to take a puff from your inhaler.</string>
+    <string name="collision_message_pet">You have been hit by a cat! Keep your pet out of your bedroom! Now, you need to take a puff from your inhaler.</string>
+    <string name="collision_message_mold">You have been hit by mold! Be sure to check your leaking pipes! Now, you need to take a puff from your inhaler.</string>
+    <string name="collision_message_cockroach">You have been hit by a cockroach! Get a cockroach trap and ask them to check into the roach motel! Now, you need to take a puff from your inhaler.</string>
+    <string name="collision_message_smoke2">You have been hit by smoke! Don\'t let people smoke around you! Now, you need to take a puff from your inhaler.</string>
+	<string name="collision_message_smoke3">You have been hit by smoke! Don\'t let people smoke in your car! Now, you need to take a puff from your inhaler.</string>
+    <string name="collision_message_smoke">You have been hit by smoke! Don\'t let people smoke in your house! Now, you need to take a puff from your inhaler.</string>
+    <string name="collision_message2">You have been hit! Because you have used your inhaler twice, it\'s time for the nebulizer.</string>
+    <string name="ok">OK</string>
+    <string name="inhaler_message1">Take your daily medicine so you can go enjoy your day!</string>
+    <string name="inhaler_message2">Now that you have taken your daily medicine you can begin the game!</string>
+	<string name="startgame">                    Click on a character to begin!</string>
+	<string name="Up">U</string>
+	<string name="Down">D</string>
+	<string name="Left">L</string>
+	<string name="Right">R</string>
+	<string name="Pause">Pause</string>
+</resources>

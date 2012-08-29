@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <edu.upenn.cis.cis350.GameGridView
+        android:id="@+id/gridview1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.78" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/upbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onUpClick"
+            android:background = "@drawable/arrow_up"
+           
+             />
+
+        <Button
+            android:id="@+id/downbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onDownClick"
+            android:background = "@drawable/arrow_down"
+            />
+
+        <Button
+            android:id="@+id/leftbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onLeftClick"
+            android:background = "@drawable/arrow_left"
+             />
+
+        <Button
+            android:id="@+id/rightbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRightClick"
+            android:background = "@drawable/arrow_right"
+             />
+        
+          <Button
+              android:id="@+id/pausebutton"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:onClick="onPauseClick"
+              android:textSize="12sp"
+              android:text="@string/Pause" />
+
+    </LinearLayout>
+
+</LinearLayout>
