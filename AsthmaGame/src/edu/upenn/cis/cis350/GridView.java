@@ -157,6 +157,40 @@ public abstract class GridView extends View {
 		
 	}
 	
+	
+	public boolean leftArrow(float x, float y) {
+		int left = SCREEN_WIDTH * 65 / 480;
+		int right = SCREEN_WIDTH * 140 / 480;
+		int top = SCREEN_HEIGHT * 561 / 640;
+		int bottom = SCREEN_HEIGHT * 617 / 640;
+		return x > left && x < right && y > top && y < bottom;
+	}
+
+	public boolean rightArrow(float x, float y) {
+		int left = SCREEN_WIDTH * 335 / 480;
+		int right = SCREEN_WIDTH * 410 / 480;
+		int top = SCREEN_HEIGHT * 561 / 640;
+		int bottom = SCREEN_HEIGHT * 617 / 640;
+		return x > left && x < right && y > top && y < bottom;
+	}
+	
+	public boolean upArrow(float x, float y) {
+		int left = SCREEN_WIDTH * 65 / 480;
+		int right = SCREEN_WIDTH * 140 / 480;
+		int top = SCREEN_HEIGHT * 561 / 640;
+		int bottom = SCREEN_HEIGHT * 617 / 640;
+		return x > left && x < right && y > top && y < bottom;
+	}
+
+	public boolean downArrow(float x, float y) {
+		int left = SCREEN_WIDTH * 335 / 480;
+		int right = SCREEN_WIDTH * 410 / 480;
+		int top = SCREEN_HEIGHT * 561 / 640;
+		int bottom = SCREEN_HEIGHT * 617 / 640;
+		return x > left && x < right && y > top && y < bottom;
+	}
+	
+	
 	protected abstract void timerCalled();
 	protected abstract boolean isEmpty(int x, int y);
 	protected abstract void onDraw(Canvas canvas);

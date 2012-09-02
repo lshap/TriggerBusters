@@ -33,28 +33,26 @@ public final class R {
         public static final int inhaler=0x7f020013;
         public static final int instructionsa=0x7f020014;
         public static final int instructionsb=0x7f020015;
-        public static final int meter=0x7f020016;
-        public static final int meterfull=0x7f020017;
-        public static final int meterone=0x7f020018;
-        public static final int meterthree=0x7f020019;
-        public static final int metertwo=0x7f02001a;
-        public static final int mold=0x7f02001b;
-        public static final int sidewalk=0x7f02001c;
-        public static final int tree=0x7f02001d;
+        public static final int joystick=0x7f020016;
+        public static final int meter=0x7f020017;
+        public static final int meterfull=0x7f020018;
+        public static final int meterone=0x7f020019;
+        public static final int meterthree=0x7f02001a;
+        public static final int metertwo=0x7f02001b;
+        public static final int mold=0x7f02001c;
+        public static final int sidewalk=0x7f02001d;
+        public static final int tree=0x7f02001e;
     }
     public static final class id {
-        public static final int counter=0x7f07000b;
-        public static final int downbutton=0x7f070002;
+        public static final int counter=0x7f070008;
         public static final int gridview1=0x7f070000;
-        public static final int leftbutton=0x7f070003;
-        public static final int pausebutton=0x7f070005;
-        public static final int pregameview1=0x7f070008;
-        public static final int rightbutton=0x7f070004;
-        public static final int rulesbutton=0x7f070007;
-        public static final int rulesview1=0x7f070009;
-        public static final int startview1=0x7f070006;
-        public static final int submitbutton=0x7f07000a;
-        public static final int upbutton=0x7f070001;
+        public static final int joystickbutton=0x7f070002;
+        public static final int pausebutton=0x7f070001;
+        public static final int pregameview1=0x7f070005;
+        public static final int rulesbutton=0x7f070004;
+        public static final int rulesview1=0x7f070006;
+        public static final int startview1=0x7f070003;
+        public static final int submitbutton=0x7f070007;
     }
     public static final class integer {
         public static final int Score=0x7f060000;
@@ -101,6 +99,7 @@ public final class R {
         public static final int collision_message_smoke3=0x7f050011;
         public static final int inhaler_message1=0x7f050015;
         public static final int inhaler_message2=0x7f050016;
+        public static final int joystick=0x7f05001d;
         public static final int ok=0x7f050014;
         public static final int startgame=0x7f050017;
     }

@@ -46,6 +46,9 @@ public class GameGridView extends GridView {
 	private long _score;
 	private long _clutterScore;
 	private GridValue _encounteredObject;
+	
+	// number of moves before villain's direction is recalculated
+	private int  _villIncrement;
 
 	public GameGridView(Context c) {
 		super(c);
@@ -82,6 +85,7 @@ public class GameGridView extends GridView {
 		_villains.add(_villain3);
 		_villains.add(_villain4);
 		_meter = 4;
+		_villIncrement = 5;
 		_meterPicture = R.drawable.meterfull;
 		_counter = 0;
 		fillGrid();
@@ -100,8 +104,8 @@ public class GameGridView extends GridView {
 			clutterRelocate();
 		}
 		for (EvilCharacter villain : _villains) {
-			// Every 3 iterations, change the villain's direction
-			if (_counter % 3 == 0) {
+			// Every _villIncrement number of iterations, change the villain's direction
+			if (_counter % _villIncrement == 0) {
 				calculateVillainNewDirection(villain);
 				continue;
 			}
@@ -572,8 +576,8 @@ public class GameGridView extends GridView {
 
 	private void drawMeter(Canvas canvas) {
 		Rect meterRect = new Rect(0, 10 * SCREEN_HEIGHT / 16 - 30
-				+ PIXEL_HEIGHT / 3, 14 * SCREEN_WIDTH / 16 - 60, 11
-				* SCREEN_HEIGHT / 16 + 50 + PIXEL_HEIGHT / 3);
+				+ PIXEL_HEIGHT / 3, 14 * SCREEN_WIDTH / 16 - 60 -160, 11
+				* SCREEN_HEIGHT / 16 + 50 + PIXEL_HEIGHT / 3-70);
 		canvas.drawBitmap(
 				BitmapFactory.decodeResource(getResources(), _meterPicture),
 				null, meterRect, null);
